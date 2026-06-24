@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "name": "Muhammad Ulil Albab",
+    "role": "Electronics Technician",
+    "tagline": "Merawat dan memperbaiki perangkat elektronik & audio dengan presisi sirkuit.",
+    "location": "Tuntang, Kab. Semarang",
+    "email": "muhammadulal1212@gmail.com",
+    "phone": "+62 821-3436-4968",
+    "instagram": "https://www.instagram.com/muhammad.al_10?igsh=N2YxcmR0N2trNWJw",
+    "languages": ["Indonesia", "English"],
+    "about": "Lulusan SMK Roudlotul Mubtadiin Jepara (2023) jurusan Teknik Audio Video (TAV). Fokus pada perawatan dan perbaikan perangkat audio, dengan pemahaman solid tentang pemrograman elektronik dasar dan sistem kontrol. Memahami Keselamatan dan Kesehatan Kerja (K3) serta berpengalaman dalam troubleshooting dan perbaikan perangkat elektronik rumah tangga."
+  },
+  "education": [
+    {
+      "school": "SMK Roudlotul Mubtadiin (Balekambang Jepara)",
+      "period": "2020 - 2023",
+      "description": "Belajar elektronika dasar, sistem audio dan video, serta pengukuran listrik. Memperoleh pengalaman instalasi, perawatan, troubleshooting, dan perbaikan perangkat elektronik. Mengembangkan kemampuan pemrograman Arduino, perancangan IoT, dan simulasi sirkuit menggunakan Proteus, disertai pemahaman K3."
+    }
+  ],
+  "experience": [
+    {
+      "company": "CV Berkah Teknik",
+      "role": "Electronics Technician",
+      "description": "Berkolaborasi dengan berbagai klien dalam tim untuk memperbaiki perangkat elektronik rumah tangga dan motor listrik (dinamo) di sebuah playzone. Bertanggung jawab atas layanan perawatan dan perbaikan untuk bisnis kecil maupun pelanggan individu."
+    }
+  ],
+  "skills": [
+    { "name": "Repair & Maintenance Perangkat Elektronik Rumah Tangga", "level": 90 },
+    { "name": "Perbaikan Peralatan Audio", "level": 92 },
+    { "name": "Electronic Programming (Arduino)", "level": 75 },
+    { "name": "Proteus & CodeVision Software", "level": 80 },
+    { "name": "K3 (Keselamatan & Kesehatan Kerja)", "level": 85 }
+  ],
+  "projects": [
+    {
+      "title": "Perbaikan Motor Listrik (Dinamo) Playzone",
+      "category": "Electrical Repair",
+      "description": "Menangani perbaikan dan perawatan motor listrik/dinamo pada wahana playzone, memastikan perangkat tetap aman dan beroperasi optimal untuk pengunjung.",
+      "tags": ["Motor Listrik", "Maintenance", "K3"]
+    },
+    {
+      "title": "Servis Perangkat Elektronik Rumah Tangga",
+      "category": "Household Electronics",
+      "description": "Troubleshooting dan perbaikan berbagai perangkat elektronik rumah tangga untuk pelanggan individu dan bisnis kecil di bawah CV Berkah Teknik.",
+      "tags": ["Troubleshooting", "Customer Service"]
+    },
+    {
+      "title": "Perbaikan & Perawatan Peralatan Audio",
+      "category": "Audio Engineering",
+      "description": "Diagnosis dan perbaikan kerusakan pada peralatan audio, mulai dari amplifier hingga speaker, berdasarkan latar belakang pendidikan Teknik Audio Video.",
+      "tags": ["Audio", "Diagnostics"]
+    },
+    {
+      "title": "Simulasi & Pemrograman Sirkuit Elektronik",
+      "category": "Embedded & Simulation",
+      "description": "Merancang dan mensimulasikan rangkaian elektronik menggunakan Proteus, serta pemrograman dasar dengan Arduino dan CodeVision untuk sistem kontrol sederhana.",
+      "tags": ["Arduino", "Proteus", "CodeVision"]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Ulil Albab — Electronics Technician</title>
+<meta name="description" content="Portofolio Muhammad Ulil Albab, Electronics Technician — perbaikan, perawatan, dan pemrograman perangkat elektronik & audio.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Circuit trace progress line -->
+  <svg class="trace-rail" viewBox="0 0 4 1000" preserveAspectRatio="none" aria-hidden="true">
+    <path class="trace-track" d="M2,0 L2,1000"></path>
+    <path class="trace-fill" d="M2,0 L2,1000"></path>
+  </svg>
+
+  <header class="nav" id="top">
+    <a class="nav__brand" href="#top">
+      <span class="nav__chip">MUA</span>
+      <span class="nav__brand-text">Ulil Albab</span>
+    </a>
+    <nav class="nav__links" aria-label="Navigasi utama">
+      <a href="#about" data-nav>Tentang</a>
+      <a href="#skills" data-nav>Skill</a>
+      <a href="#projects" data-nav>Project</a>
+      <a href="#experience" data-nav>Pengalaman</a>
+      <a href="#contact" data-nav>Kontak</a>
+    </nav>
+    <a class="btn btn--ghost nav__cv" href="assets/cv/CV-Muhammad-Ulil-Albab.pdf" download>
+      Unduh CV
+    </a>
+    <button class="nav__burger" id="burger" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__grid">
+        <div class="hero__text">
+          <p class="eyebrow"><span class="dot dot--live"></span> Tersedia untuk proyek perbaikan & maintenance</p>
+          <h1 class="hero__title">
+            Setiap rangkaian punya<br>
+            <span class="hero__title-accent">jalur yang bisa diperbaiki.</span>
+          </h1>
+          <p class="hero__desc" id="profile-tagline">Memuat...</p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary">Lihat Project</a>
+            <a href="#contact" class="btn btn--outline">Hubungi Saya</a>
+          </div>
+          <dl class="hero__stats">
+            <div><dt>Bidang</dt><dd>Audio Video Engineering</dd></div>
+            <div><dt>Fokus</dt><dd>Repair & Maintenance</dd></div>
+            <div><dt>Lokasi</dt><dd id="profile-location">—</dd></div>
+          </dl>
+        </div>
+
+        <div class="hero__visual">
+          <div class="scope">
+            <div class="scope__frame">
+              <img src="assets/images/profile.jpeg" alt="Foto profil Muhammad Ulil Albab" class="scope__photo">
+              <svg class="scope__waveform" viewBox="0 0 300 60" preserveAspectRatio="none" aria-hidden="true">
+                <polyline class="wave" points="0,30 15,30 25,10 35,50 45,15 55,45 65,30 80,30 95,5 105,55 115,30 130,30 145,20 155,40 165,30 180,30 195,8 205,52 215,30 230,30 245,18 255,42 265,30 280,30 300,30"></polyline>
+              </svg>
+            </div>
+            <span class="scope__label">SIGNAL: <span class="scope__status">STABLE</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="section__head">
+        <span class="section__eyebrow">// Tentang</span>
+        <h2>Latar belakang teknis saya</h2>
+      </div>
+      <div class="about__grid">
+        <p class="about__text" id="about-text">Memuat...</p>
+        <div class="about__edu" id="education-list">
+          <!-- diisi JS -->
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section section--alt" id="skills">
+      <div class="section__head">
+        <span class="section__eyebrow">// Komponen</span>
+        <h2>Skill & Kompetensi</h2>
+      </div>
+      <div class="skills__board" id="skills-board">
+        <!-- diisi JS -->
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section" id="projects">
+      <div class="section__head">
+        <span class="section__eyebrow">// Pekerjaan</span>
+        <h2>Project & Pengalaman Lapangan</h2>
+      </div>
+      <div class="projects__grid" id="projects-grid">
+        <!-- diisi JS -->
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section section--alt" id="experience">
+      <div class="section__head">
+        <span class="section__eyebrow">// Riwayat</span>
+        <h2>Pengalaman Kerja</h2>
+      </div>
+      <div class="experience__list" id="experience-list">
+        <!-- diisi JS -->
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section" id="contact">
+      <div class="section__head">
+        <span class="section__eyebrow">// Sambungan</span>
+        <h2>Mari terhubung</h2>
+      </div>
+      <div class="contact__grid">
+        <div class="contact__info">
+          <p>Punya perangkat yang perlu diperbaiki, atau ingin diskusi proyek elektronik? Kirim pesan, saya akan merespons secepatnya.</p>
+          <ul class="contact__list" id="contact-list">
+            <!-- diisi JS -->
+          </ul>
+        </div>
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Nama</label>
+            <input type="text" id="name" name="name" required placeholder="Nama lengkap">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required placeholder="nama@email.com">
+          </div>
+          <div class="field">
+            <label for="message">Pesan</label>
+            <textarea id="message" name="message" rows="4" required placeholder="Ceritakan kebutuhan Anda..."></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--block">Kirim Pesan</button>
+          <p class="form__status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Muhammad Ulil Albab. Dibangun dari nol — HTML, CSS, JS.</p>
+    <a href="#top" class="footer__top">Kembali ke atas ↑</a>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
